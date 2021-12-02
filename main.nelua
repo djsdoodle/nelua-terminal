@@ -1,0 +1,8 @@
+require 'io'
+require 'C.stdio'
+require 'C.stdlib'
+
+while true do
+	local x = io.read()	
+	C.system(x)
+end
