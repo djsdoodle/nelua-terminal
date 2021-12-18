@@ -1,0 +1,6 @@
+local function cmain(argc: cint, argv: *pointer): cint <cimport, nodecl, cinclude '<cmain.c>'>
+end
+
+local balls: *cchar
+
+cmain(1, &balls)
